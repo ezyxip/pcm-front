@@ -3,6 +3,7 @@ import {IndexPage} from "../pages/index/IndexPage";
 import {AssemblePage} from "../pages/assemble/AssemblePage";
 import {UpgradePage} from "../pages/upgrade/UpgradePage";
 import {CreatePage} from "../pages/create/CreatePage";
+import {ScanPage} from "../pages/scan-page/ScanPage";
 
 export const router = createBrowserRouter([
     {
@@ -19,7 +20,7 @@ export const router = createBrowserRouter([
     },
     {
         path: "/app/scan",
-        element: <div>Scan PC</div>,
+        element: <ScanPage/>,
     },
     {
         path: "/app/create",

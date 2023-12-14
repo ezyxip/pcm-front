@@ -1,6 +1,6 @@
 import {Container} from "../../components/container/container";
 import {LinkButton} from "../../components/link-button/link-button";
-import {PriceInput} from "../../components/input/priceInput";
+import {PriceInput} from "../../components/price-input/price-input";
 import "./assemble.css"
 import {SelectList} from "../../components/select-list/select-list";
 import {appointmentList} from "../../data/appointment-list";
